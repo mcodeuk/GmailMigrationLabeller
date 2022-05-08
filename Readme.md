@@ -1,6 +1,6 @@
 # GmailMigrationLabeller
 
-This routing is used to copy the Labels from one GMAIL account to another when messages have been transferred between them using POP.
+This routine is used to copy the Labels from one GMAIL account to another when messages have been transferred between them using POP.
 
 Following Google's announcement that they are closing the Legacy Google Workspace many people will probably be looking for how to migrate their data to save the ongoing running costs.
 
@@ -10,7 +10,8 @@ Unfortunately Google has not make things easy for the Legacy users and so we are
 
 ## Setup
 
-Copy all code to a Google Script Project at https://script.google.com  
+Copy all code to a new Google Script Project at https://script.google.com  
+
 I suggest the breakdown of files just to make it a little easier but it could all be in one file.
 
 (If using the script for multiple users then I would recommend 1 Spreadsheet per user)
@@ -19,7 +20,8 @@ Create an Empty Spreadsheet using Google Sheets, use the Browser and get the Id 
 
 eg https://docs.google.com/spreadsheets/d/ABCDEFGHIJKLMNOPQRSTUVWXYZ/edit#gid=0 the id is ABC...XYZ
 
-If you plan to use the same sheet for multiple accounts then rename the Sheet Name to something meaningful - this saves mistakes!!
+If doing multiple accounts then rename the Sheet Name to something meaningful - this saves mistakes!!
+(You can create Multiple Sheets one for each account but I recommend 1 Sheet per Account for Privacy reasons)
 
 If you are doing this for someone else then make sure you Share the Spreadsheet with them as Editor
 
