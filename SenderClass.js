@@ -101,7 +101,7 @@ class SenderClass {
   In order to prevent crashing it retrieves a limited number of messages
   */
   GetMessageInLabel(querylabel, token) {
-    let options = {q:`in:${querylabel}`}
+    let options = {q:`in:${querylabel}`, includeSpamTrash: INCLUDESPAMANDTRASH}
     if (token != null) {
       options["pageToken"] = token
     }
