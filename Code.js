@@ -11,6 +11,7 @@ const FINAL = "FINAL"
 const AUTOREMOVEINBOX = true
 const ADJUSTLABELS = ["SENT", "DRAFT"]
 const SCRIPTAUTHOR = "AUTHOREMAIL ADDRESS"
+const INCLUDESPAMANDTRASH = false
 
 /**
  * The Run Sender Function Must be executed on the Sending Account
