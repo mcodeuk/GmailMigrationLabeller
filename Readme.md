@@ -89,6 +89,7 @@ This will make sure that the receiver is looking at the same Spreadsheet etc.
 Now you can manually run RunReceiver and check it is outputting messages correctly.
 
 You may find a number of messages saying not found these are normally associated with TRASH - I might modify the code to prevent them going to Spreadsheet!
+[Update : I included a Constant in Code.js to indicate whether to Include Spam and Trash on the Sender side, now defaults to False]
 
 Again once you are happy set up a Trigger the same as you did above but for the RunReceiver instead and on the Receiving Account.
 
